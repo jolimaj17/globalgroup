@@ -1,0 +1,89 @@
+#page10 {
+    background-repeat: no-repeat;
+    background-position: left top;
+    display: block;
+}
+
+#page10 .news {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: 0;
+}
+#page10 .news-holder  {
+    background-size: contain;
+
+}
+#page10 .news-holder .txt {
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    padding: 20px;
+}
+#page10 .news-holder .txt p {
+  color:#12128D;
+  font-size: 16px;
+}
+#page10 .news-holder .txt .btnMore {
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 25%;
+    font-size: 22px;
+    margin: 0 37%;
+}
+
+#page20 .column,#page30 .column{ padding: 30px;}
+#page20 .column h1,#page30 .column h1,#page40 .column h1,#page50 .column h1{font-weight: bold;text-transform: uppercase;text-align: center;}
+#page20 .column p,#page30 .column p{color:#707070;  text-align: justify;}
+#page20 .column .right,#page30 .column .right {width:100%}
+#page20 .column img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+#page30 .column img{
+    width: 80%;
+    margin-left: 37px;
+}
+
+#page30 .column .bottom {
+    padding: 40px 0 40px 40px;
+
+}
+#page40 .list
+{
+    padding: 40px;
+
+}
+#page40 .list .column .panel h4{color: #ffff;text-align: center;text-transform: uppercase;}
+#page40 .list .column .panel p{text-align: justify;opacity:1;}
+#page40 .list .column .panel
+{
+    background:url('../img/aboutBg.png');
+    padding: 30px;
+  
+}
+#page50 .column .con-form form.btnSend
+{
+    text-transform: uppercase;
+}
+#page50 .column .con-form
+{
+    padding: 30px;
+    /* float: left; */
+    margin-right: 10%;
+}
+#page50 .column .right
+{
+    margin-left: 10%;
+    height: auto;
+    width: auto;
+}
+#page50 .column .right img
+{
+    height: 400px;
+    
+    width: 90%;
+}

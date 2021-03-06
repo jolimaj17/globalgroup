@@ -1,0 +1,112 @@
+html
+{
+  margin: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #FFFFFF;
+}
+h1,h2,h3,h4,h5,h6,li
+{
+  color: #12128D;
+}
+textarea
+{
+  resize: none;
+}
+button
+{
+  background : #12128D;
+  color: #FFFFFF;
+}
+button:hover {
+  color: #707070;
+}
+* {
+  box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.page-content
+{
+  margin-top: 1%;
+}
+/*header*/
+#wildlife .header
+{
+  width: auto;
+  height: 100px;  
+}
+#wildlife .header .nav
+{
+    float: right;
+    margin: 2%;
+}
+#wildlife .header .nav li 
+{
+    font-weight: bold;
+    padding: 20px 5px;
+    cursor: pointer;
+}
+#wildlife .header .nav li,
+#wildlife .header .nav li a 
+{
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #12128D;
+}
+
+#wildlife .header .nav li a:link{  color: #12128D;}
+#wildlife .header .nav li a:hover{  color: #707070;}
+#wildlife .header .nav li a:visited{  color: #707070;}
+#wildlife .header .logo{ float: left; margin: 2%;cursor: pointer;}
+#wildlife .header .logo img{width: auto; height: 50px;}
+#wildlife .content
+{
+    height: 868px;
+    width: auto;
+    box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+
+}
+.footer { 
+  background-color: #FFFFFF;
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ }
+#footer p { 
+color: #12128D;
+text-align: center;
+font-size: 16px;
+padding: 15px;
+font-weight: bold;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-weight: 900;
+    font-display: block;
+    src: url("../fonts/webfonts/fa-solid-900.eot");
+    src: url("../fonts/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/webfonts/fa-solid-900.woff2") format("woff2"), url("../fonts/webfonts/fa-solid-900.woff") format("woff"), url("../fonts/webfonts/fa-solid-900.ttf") format("truetype"), url("../fonts/webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'FontAwesome';
+    font-weight: 900; }
